@@ -48,7 +48,7 @@ interface ListProps extends TdHTMLAttributes<HTMLTableElement> {
 }
 
 const ListDefault: React.FC<ListProps> = (Props) => {
-  const initialData = AgruparObj(Props.options, 10);
+  const initialData = AgruparObj(Props.options, 20);
   const [listShow, setListShow] = useState<ListArray[]>([])
   const [arraySelect, setArraySelect] = useState<number[]>([])
   const [buttonSelect, setButtonSelect] = useState<number>(0)
