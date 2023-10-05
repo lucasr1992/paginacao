@@ -8,7 +8,7 @@ export function GerarLista() {
   const idades = [20, 25, 30, 35, 40, 45, 50, 55, 60, 65];
   const arrayDeObjetos = [];
 
-  for (let i = 1; i <= 98; i++) {
+  for (let i = 1; i <= 20; i++) {
     const objeto = {
       id: i,
       nome: nomes[getRandomInt(0, nomes.length - 1)],
